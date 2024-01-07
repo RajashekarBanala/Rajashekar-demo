@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+h2{
+    margin-bottom: 50px;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    padding: 20px;
+    margin-left: 20px;
+    background-image: url(rock.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    padding: 20px;
+    margin-left: 20px;
+    background-image: url(paper.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    padding: 20px;
+    margin-left: 20px;
+    background-image: url(scissors.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.game{
+    height: 50vh;
+    width: 70vh;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap:5rem;
+}
+
+#user-score,
+#comp-score {
+    font-size:3.5rem;
+    margin-top: 40px;
+    
+}
+
+#msg{
+    background-color: #081b31;
+    color:white;
+    border-radius: 1rem;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+
+   
+    
+}
+.msg-container{
+   margin-top: 3rem;
+
+}
